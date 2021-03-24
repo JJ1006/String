@@ -1,0 +1,2 @@
+# String
+Information about string
