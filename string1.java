@@ -11,6 +11,7 @@ public class string1{
        //Scanner  sc = new Scanner(System.in);
        //String st = sc.nextLine();
        String name = "Jaahanava Joshi"; //declaring string
+       String end = " is of 20 years.";
        System.out.println(name);//output of string
        String alllower = name.toLowerCase();//converting to lower case
        String allupper = name.toUpperCase();//converting to upper case
@@ -31,7 +32,7 @@ public class string1{
        System.out.println(name.lastIndexOf("a",3));//searching begins from last and returns the number at which the character is found at first 
        System.out.println(name.equals("Jaahanava Joshi"));//(is case sensitive) checks if the string is equal or not
        System.out.println(name.equalsIgnoreCase("jaahanava joshi"));//(is not case sensitive)checks if the string is equal or not
-       
+       System.out.println(name.concat(end));
 
     }
 }
